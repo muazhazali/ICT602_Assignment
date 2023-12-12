@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Define your colors -->
+    <color name="text">#0d0f0a</color>
+    <color name="background">#f6f9f1</color>
+    <color name="primary">#96c94a</color>
+    <color name="secondary">#bde97c</color>
+    <color name="accent">#b3f452</color>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZakatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Theme.ZakatApp" parent="Base.Theme.ZakatApp" />
+
+    <style name="Theme.ZakatApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ZakatApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ZakatApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
